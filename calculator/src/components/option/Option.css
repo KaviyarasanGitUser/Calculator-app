@@ -1,0 +1,21 @@
+.option{
+    width: 27%;
+    height: 6.5rem;
+    display: grid;
+    place-items: center;
+    margin: 1rem 0.7rem;
+    border: 1px solid #006aba;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: white;
+    color: #006aba;
+    box-shadow: 1px 2px 2px 1px;
+}
+.option:hover{
+    transition: 0.3s;
+    scale: 1.1;
+}
+.icon{
+    margin-top: 0.8rem;
+    font-size: 2rem;
+}

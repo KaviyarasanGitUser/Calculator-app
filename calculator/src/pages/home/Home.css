@@ -1,0 +1,15 @@
+.home{
+    width: 425px;
+    height: 100vh;
+    box-sizing: border-box;
+    border: 1px solid lightslategrey;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: #f5f2f9;
+    position: absolute;
+    z-index: 1;
+}
+.option-container{
+    display: flex;
+    flex-wrap: wrap;
+}
