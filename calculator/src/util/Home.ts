@@ -9,14 +9,9 @@ import { SiSpeedtest } from "react-icons/si";
 import { AiOutlineFieldBinary } from "react-icons/ai";
 import { GoClock } from "react-icons/go";
 import { FaTemperatureThreeQuarters } from "react-icons/fa6";
+import { calculatorCard } from "./Type";
 
-
-export interface CalculatorCard {
-  icon: React.FC;
-  name: string;
-}
-
-export const home: CalculatorCard[] = [
+export const home: calculatorCard[] = [
   {
     icon: LuCalculator,
     name: "Calculator",

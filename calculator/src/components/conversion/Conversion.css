@@ -1,0 +1,20 @@
+.conversion-div{
+    display: flex;
+    margin: 1rem 0;
+    justify-content: center;
+}
+.unit{
+    border: 1px solid dodgerblue;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    width: 1rem;
+    height: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.unit-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
